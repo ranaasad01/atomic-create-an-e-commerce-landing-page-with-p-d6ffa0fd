@@ -1,11 +1,11 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { ShoppingCart, Search, Sparkles, Menu, X } from 'lucide-react';
 import { useCart } from "@/context/cart-context";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
 
 type NavbarProps = {
   searchQuery?: string;
@@ -26,7 +26,7 @@ export default function Navbar({ searchQuery = "", onSearchChange }: NavbarProps
               <Sparkles className="w-4 h-4 text-white" />
             </div>
             <span className="text-xl font-bold text-slate-900 tracking-tight">
-              Lumière
+              Amazon
             </span>
           </Link>
 
