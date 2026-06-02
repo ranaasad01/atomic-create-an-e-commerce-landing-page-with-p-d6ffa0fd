@@ -39,7 +39,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
                 <Sparkles className="w-4 h-4 text-white" />
               </div>
-              <span className="text-xl font-bold text-white tracking-tight">Lumière</span>
+              <span className="text-xl font-bold text-white tracking-tight">Amazon</span>
             </Link>
             <p className="text-sm leading-relaxed text-slate-400 mb-6">
               Curated products for modern living. Quality you can trust, prices you&apos;ll love.
